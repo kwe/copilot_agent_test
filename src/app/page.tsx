@@ -146,7 +146,7 @@ export default function Home() {
   return (
     <div className="min-h-screen p-8 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-md mx-auto">
-        <h1 className="text-3xl font-bold mb-2 text-blue-900 dark:text-blue-500">Todo List</h1>
+        <h1 className="text-3xl font-bold mb-2 text-blue-900 dark:text-blue-500">My things todo</h1>
         <p className="text-gray-600 dark:text-gray-400 mb-6">
           {todos.filter(todo => !todo.completed).length} items remaining
         </p>

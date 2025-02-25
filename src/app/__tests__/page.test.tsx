@@ -23,7 +23,7 @@ jest.mock('@dnd-kit/sortable', () => ({
 describe('Todo App', () => {
   it('renders the todo list title', () => {
     render(<Home />);
-    expect(screen.getByText('Todo List')).toBeInTheDocument();
+    expect(screen.getByText('My things todo')).toBeInTheDocument();
   });
 
   it('adds a new todo', () => {
